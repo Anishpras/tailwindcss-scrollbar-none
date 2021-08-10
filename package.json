@@ -1,0 +1,37 @@
+{
+  "name": "tailwind-scrollbar-none",
+  "version": "1.0.0",
+  "description": "tailwindcss plugin for disabling scrollbar",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "npm version patch && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anishpras/tailwindcss-scrollbar-none.git"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "tailwindcss",
+    "scrollbar",
+    "disable-scroll",
+    "scrollbar"
+  ],
+  "bugs": {
+    "url": "https://github.com/Anishpras/tailwindcss-scrollbar-none/issues"
+  },
+  "homepage": "https://github.com/Anishpras/tailwindcss-scrollbar-none#readme",
+  "devDependencies": {
+    "autoprefixer": "10.2.4",
+    "postcss": "8.2.5",
+    "tailwindcss": "2.0.2"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Anishpras",
+  "license": "MIT"
+}
